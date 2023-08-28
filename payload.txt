@@ -8,3 +8,5 @@
 ./bin/kafka-topics.sh --zookeeper 10.75.75.5:2181 --list
 
 ./bin/kafka-consumer-groups.sh --bootstrap-server 10.75.75.6:9092 --list
+
+unset https_proxy http_proxy no_proxy
