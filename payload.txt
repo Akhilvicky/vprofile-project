@@ -10,3 +10,6 @@
 ./bin/kafka-consumer-groups.sh --bootstrap-server 10.75.75.6:9092 --list
 
 unset https_proxy http_proxy no_proxy
+
+psql -h 10.75.116.29 -U aiopsadmin@postgresql1-aiops-dev -d aiops
+C1@riosa!op$Postgr#
