@@ -1,0 +1,49 @@
+{
+  "timezone":"America/New_York",
+  "servers": [
+      {
+          "server_ip": "10.75.75.4",
+          "os_type": "linux",
+          "username": "xbhagatdsa",
+          "host_name": "c0040l0059n",            
+          "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "is_master":"Yes"
+      },
+      {
+          "server_ip": "10.75.75.5",
+          "os_type": "Linux",
+          "username": "xbhagatdsa",
+          "host_name": "c0040l0060n",
+          "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "is_master":"No"
+      },
+      {
+          "server_ip": "10.75.75.6",
+          "os_type": "Linux",
+          "username": "xbhagatdsa",
+          "host_name": "c0040l0061n",
+          "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "is_master":"No" 
+},     
+{
+          "server_ip": "10.75.75.7",
+          "os_type": "Linux",
+          "username": "xbhagatdsa",
+          "host_name": "c0040l0062n",
+          "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+          "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+          "is_master":"No"
+      }
+  ]
+}
