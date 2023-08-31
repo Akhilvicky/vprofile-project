@@ -5,6 +5,8 @@
 
 ./bin/kafka-console-producer.sh --broker-list 10.181.18.28:9092 --topic tenant1_tkt_cat_downstream
 
+./bin/kafka-console-consumer.sh --bootstrap-server 10.181.18.30:9092 --topic tenant1_tkt_cat_downstream --from-beginning
+
 ./bin/kafka-topics.sh --zookeeper 10.75.75.5:2181 --list
 
 ./bin/kafka-consumer-groups.sh --bootstrap-server 10.75.75.6:9092 --list
