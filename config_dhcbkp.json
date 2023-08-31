@@ -1,0 +1,83 @@
+{
+    "tool" : "Braio",
+    "urls": [
+        "https://aiops-qa.clarios.com/",
+        "https://braio-qa.clarios.com/"
+    ],
+    "servers": [
+        {
+            "server_ip": "10.75.75.4",
+            "os_type": "linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0059n",            
+            "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "service": [
+                "docker",
+                "kubectl"
+            ]
+        },
+        {
+            "server_ip": "10.75.75.5",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0060n",
+            "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "service": [
+                "kafka",
+                ""
+            ],
+	    "kafka" : {		
+		"path" : "/usr/kafka_2.12-2.2.0/",
+		"server" : "10.75.75.5",
+		"consumer_port" : "9092",
+		"zookeeper_port" : "2181"
+	   }
+        },
+        {
+            "server_ip": "10.75.75.6",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0061n",
+            "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "service": [
+                "postgres"
+	],
+            "kafka" : {
+                "path" : "/usr/kafka_2.12-2.2.0/",
+                "server" : "10.75.75.6",
+                "consumer_port" : "9092",
+                "zookeeper_port" : "2181"
+        }   
+	},     
+	{
+            "server_ip": "10.75.75.7",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0062n",
+            "password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_password": "gAAAAABksBMuLejf2EcDlRLcDmZfibxcQiY3d1xYzeQfKwAXczaxqBTUhoclarVvq1Z_37cGu1tDiD0hoQXA8qxBbCupUhVTuw==",
+            "root_key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "key": "HCakVR_TqqVsUZ9xzjtyqxLA0ybVR4n2ovclHjjT7XY=",
+            "service": [
+                "postgres"
+        ],
+            "kafka" : {
+                "path" : "/usr/kafka_2.12-2.2.0/",
+                "server" : "10.75.75.7",
+                "consumer_port" : "9092",
+                "zookeeper_port" : "2181"
+         }
+          
+           
+        }
+    ]
+}
