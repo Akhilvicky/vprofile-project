@@ -1,0 +1,63 @@
+{   
+
+    "tool": "Braio",
+    "urls": [
+        "https://aiops.clarios.com",
+        "https://braio.clarios.com"
+    ],
+    "servers": [
+        {
+            "server_ip": "10.75.145.4",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0057p",
+            "password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",
+            "root_password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "root_key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",            
+            "service": ["httpd"]
+        },
+        {
+           "server_ip": "10.75.145.4",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0057p",
+            "password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",
+            "root_password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "root_key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",            
+            "service": [
+                "keepalived",
+                "haproxy","kafka"
+            ]
+         },  
+         {
+            "server_ip": "10.75.145.5",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0058p",
+            "password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",
+            "root_password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "root_key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",            
+            "service": [
+                "kafka",
+                ""
+            ]
+         },
+         {
+            "server_ip": "10.75.145.6",
+            "os_type": "Linux",
+            "username": "xbhagatdsa",
+            "host_name": "c0040l0059p",
+            "password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",
+            "root_password": "gAAAAABkmcpYMwKbAIChtaNRv9agvCjwnU1swJzhAGaXO168bU03l_RuzVRp74tCzRZ7FepCVqZlOP2fRh3jnDmbhZz_Jx60Ow==",
+            "root_key": "AzbBedQVz1BOes0Dzq5HtPm8ghL3wRLEbMJvvPm19vQ=",            
+            "service": [
+                "psql",
+                "kafka"
+            ]
+          }
+    ]
+ }  
