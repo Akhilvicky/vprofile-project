@@ -15,3 +15,10 @@ unset https_proxy http_proxy no_proxy
 
 psql -h 10.75.116.29 -U aiopsadmin@postgresql1-aiops-dev -d aiops
 C1@riosa!op$Postgr#
+
+
+
+
+
+
+{"sid": "scheduler__xkishore_ZWktbXVsZXNvZnQ__RMD5fd4daa2794725b53_at_1626200400_64801", "search_name": "EI-Prod: AIOPS Webhook Alert", "app": "ei-mulesoft", "owner": "xkishore", "results_link": "https://clariosit.splunkcloud.com:443/app/ei-mulesoft/search?q=%7Cloadjob%20scheduler__xkishore_ZWktbXVsZXNvZnQ__RMD5fd4daa2794725b53_at_1626200400_64801%20%7C%20head%201%20%7C%20tail%201&earliest=0&latest=now", "result": {"alert_types": "Transactional", "tracing_id": "3cf75170-e406-11eb-94b1-0aaff97ee559", "error_type": "CONNECTIVITY", "description": "", "source": "Splunk", "actual_timestamp": "2022-11-24 18:15:05.366", "alert_state": "CONNECTIVITY", "cmdb_ci": "sa-sfdc-sa0014-v1", "Flow_Number": ""}}
