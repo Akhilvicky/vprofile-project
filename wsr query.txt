@@ -1,0 +1,42 @@
+No of Alerts Processed
+
+
+select count (*) from public.alerts_tbl where DATE(TO_TIMESTAMP(actual_timestamp)) BETWEEN '2023-07-06' and '2023-07-12';
+
+
+
+Number of automated ticket created
+
+
+
+select count(*) from incident_std_tbl where alert_type in (select distinct(alert_type) from alerts_template_tbl where auto_ticket = true) and DATE(TO_TIMESTAMP(sys_created_at)) BETWEEN '2023-03-09' and '2023-03-15';
+
+
+
+Number of manually ticket created
+
+
+
+select count(*) from incident_std_tbl where alert_type in (select distinct(alert_type) from alerts_template_tbl where auto_ticket = false) and DATE(TO_TIMESTAMP(sys_created_at)) BETWEEN '2023-03-09' and '2022-03-15';
+
+
+
+Number of GTR executions
+select count(*) from aiops_automation.incident_sop_automation where automation_status = 'Completed' and DATE(TO_TIMESTAMP(updated_at)) BETWEEN '2022-10-27' and '2022-03-15';
+
+
+
+Noise Suppression: (1 - ((No of tickets created by AIOps) / (Total no of down alerts)) ) * 100
+
+
+
+To get down alerts:
+
+
+select count (*) from public.alerts_tbl where DATE(TO_TIMESTAMP(actual_timestamp)) BETWEEN '2023-03-09' and '2023-03-15' AND ci_state = 'Down';
+
+
+To get tickets created by AIOPS:  
+
+
+select count (distinct itsm_incident_id) from alerts_tbl where DATE(TO_TIMESTAMP(actual_timestamp)) BETWEEN '2023-03-09' and '2023-03-15';
